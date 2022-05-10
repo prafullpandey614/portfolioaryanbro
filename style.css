@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Bangers&family=Dancing+Script&family=Koulen&display=swap');
+
+*{
+    background-color: black;
+    
+}
+span{
+    width: 60%;
+    margin-left: 300px;
+    margin-top: -200px;
+}
+nav{
+    margin-left: 550px;
+    align-items: center;
+    font-size: 24px;
+    font-family:  cursive;
+    color: lightgreen;
+}
+nav ul{
+    
+    display: flex;
+    list-style: none;
+    
+    
+}
+nav ul li{
+    cursor: pointer;
+    padding: 2px 4px;
+}
+nav ul li:hover{
+    background-color: violet;
+    border-radius: 25px;
+    color: black;
+}
+#dp{
+    
+    height: auto;
+    border-radius: 50%;
+    border: 4px solid white;
+    width: 28%;
+    margin-top: 60px;
+    margin-left:200px ;
+    margin-right: 20px;
+  
+}
+.intro{
+    margin-top: 1px;
+    margin-left: 20px;
+    display: flex;
+    
+    align-items: center;
+   
+    color: lightseagreen;
+    font-family: cursive;
+}
+#name{
+     color: violet;
+     font-size: 40px;
+     font-weight: bold;
+     padding-left: 20px;
+    
+     padding-top: 100px;
+     
+   
+     
+     font-family:  'Koulen', cursive;
+}
+i{
+    color: white;
+    align-items: center;
+   
+
+}
+#about{
+    color: white;
+    font-family: cursive;
+    margin-left: 200px;
+    margin-right: 200px;
+    margin-top: -60px;
+
+}
+#logo{
+    height: auto;
+    width:5%;
+}
+footer ul{
+    display: inline;
+    margin-left: 300px;
+    align-items: center;
+}
+
+li{
+    display: inline;
+    margin-left: 30px;
+    margin-right: 10px;
+    cursor: pointer;
+    padding: 2px 20px;
+}
+a{
+    
+    color: lightgreen;   
+    text-decoration: none;
+}
